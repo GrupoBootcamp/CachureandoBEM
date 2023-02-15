@@ -15,6 +15,8 @@ body{
 .head{
 
     background-color: var(--bridge-color);
+    position:relative
+
 
 }
 
@@ -24,8 +26,9 @@ body{
 
 .nav{
 
+    /*background-color: rgb(241,251,248);*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -56,7 +59,6 @@ body{
 }
 
 .nav__link:hover{
-
  
     border-bottom:solid 0.2rem var(--secondary-color);
 
@@ -64,12 +66,11 @@ body{
 
 .nav__burger{
 
-    color:rgba(15,76,129,1);
+    color:var(--secondary-color);
     background: none;
     border:none;
     font-size: 1.6rem;
     display: none;
-
 
 }
 
@@ -110,10 +111,14 @@ body{
     }
 
     .nav{
-    
+        
+        background-color: var(--bridge-color);
         display: flex;
+        position: fixed;
+        width: 100%;
         justify-content: space-around;
         align-items: center;
+        z-index: 1;
     
     }
     
