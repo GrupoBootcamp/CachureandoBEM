@@ -6,7 +6,7 @@
 
 .form{
 
-    margin-top: 8rem;
+    margin: 5rem 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,6 +35,7 @@
 .form__elements{
     padding: 25px 40px;
 }
+
 
 /*
 h2{
@@ -69,6 +70,17 @@ h2:after{
 
 .form__field:hover{
 	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form__field--error{
+
+    border:solid 0.2rem #DB0C07;
+
+}
+.form__field--success{
+
+    border:solid 0.2rem #34b846;
+
 }
 
 textarea{
