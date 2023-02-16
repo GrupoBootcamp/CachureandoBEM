@@ -6,11 +6,11 @@
 
 .form{
 
+    margin-top: 8rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 20px 100px;
-    margin:5rem 0rem;
 
 }
 
@@ -36,6 +36,7 @@
     padding: 25px 40px;
 }
 
+/*
 h2{
     position: relative;
     padding: 0 0 10px;
@@ -52,7 +53,7 @@ h2:after{
     width: 50px;
     border-radius: 2px;
     background-color: #756E97;
-}
+}*/
 
 .form__field{
     width: 100%;
@@ -102,5 +103,6 @@ textarea{
 	.form__img{
 		height: 200px;
 	}
+
 }
 

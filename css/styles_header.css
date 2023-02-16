@@ -15,8 +15,6 @@ body{
 .head{
 
     background-color: var(--bridge-color);
-    position:relative
-
 
 }
 
@@ -115,6 +113,7 @@ body{
         background-color: var(--bridge-color);
         display: flex;
         position: fixed;
+        top:0px;
         width: 100%;
         justify-content: space-around;
         align-items: center;
