@@ -1,0 +1,30 @@
+.survey{
+    padding: 15%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(250, 222, 207, 0.5);
+    transition: all 0.5s;
+    
+}
+
+
+.survey__title{
+    color:#756E97;
+    font-size: 3vw;
+}
+
+.survey__star{
+    color:#756E97;
+    font-size: 4vw;
+    background: transparent;
+    border: 0;
+}
+
+.survey__results{
+    text-align: center;
+}
+
+.survey__results--legend{
+    color:#756E97;
+    font-size: 2.5vw;
+}
