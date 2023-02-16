@@ -1,12 +1,13 @@
 .survey{
-    padding: 15%;
+    
+    margin: 5rem 0;
+    padding: 1%;
     justify-content: center;
     text-align: center;
     background-color: rgba(250, 222, 207, 0.5);
     transition: all 0.5s;
     
 }
-
 
 .survey__title{
     color:#756E97;
@@ -15,7 +16,7 @@
 
 .survey__star{
     color:#756E97;
-    font-size: 4vw;
+    font-size: 3vw;
     background: transparent;
     border: 0;
 }
