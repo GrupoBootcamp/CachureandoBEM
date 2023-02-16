@@ -1,0 +1,63 @@
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    background-size: cover;
+    background-color:#FADECF;
+    font-size:1rem;
+    color:  #756E97;
+}
+
+.footer_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+ }
+
+
+.footer__box .terms{
+    max-width: 400px;
+    font-weight: 600;
+ }
+
+.footer__box h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size:1.5rem;
+}
+
+.footer__box a{
+    color: #756E97;
+    font-weight: 600;
+    font-size:1rem;
+}
+
+.footer__box a:hover{
+    opacity: 0.8;
+}
+
+.footer__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.footer__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #756E97;
+}
+
+.fechaHora {
+    --bs-text-opacity: 1;
+    text-align: center;
+ }
