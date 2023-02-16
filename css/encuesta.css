@@ -1,3 +1,17 @@
+:root{
+
+    --primary-color: #F4FAC3;
+    --secondary-color: #756E97;
+    --bridge-color:#FADECF;
+
+}
+
+body{
+
+    background-color: var(--primary-color);
+
+}
+
 .survey{
     
     margin: 5rem 0;
@@ -28,4 +42,15 @@
 .survey__results--legend{
     color:#756E97;
     font-size: 2.5vw;
+}
+
+@media (max-width:768px){
+
+    .survey{
+    
+        margin:  8rem 0rem 5rem 0rem;
+  
+        
+    }
+    
 }
