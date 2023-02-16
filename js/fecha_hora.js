@@ -55,11 +55,4 @@ function startTime(){
      window.onload=function(){startTime();}
      
 
-     /* Galeria de imagenes*/
-
-     $('[data-fancybox]').fancybox({
-
-        AnimationEffect: "slide" 
-        
-
-     });
+     
