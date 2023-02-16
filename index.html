@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/css/styles_header.css">
     <link rel="stylesheet" href="/css/carrusel.css">
     <link rel="stylesheet" href="/css/gallery.css">
-    <title>BEM ejemplo header cachureando</title>
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>BEM Cachureando</title>
 </head>
 <body>
 
@@ -51,7 +52,7 @@
     <!--Bloque galeria de imagenes-->
 
     <section class="mainGallery">
-        <h2 class="mainGallery__title">Galeria de imagenes</h2>
+        <h2 class="mainGallery__title">Galería de imágenes</h2>
 
         <div class="gallery">
             <div class="gallery__father">
@@ -163,8 +164,36 @@
 
     <!--Bloque Footer-->
 
+    <footer>
+        <div class="footer_contenedor">
+            <div class="footer__box">
+                 <div class="terms">
+                    <h2>Contacto</h2>
+                    <p>
+                        Arlegui 330<br>
+                        Viña del Mar.<br>
+                        Teléfonos: +56 32 28854211 / +56 32 28854330.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="footer__box">
+                <h2>Hora y Fecha</h2>
+                <div class="fechaHora" id="reloj" ></div>    
+                <div class="fechaHora" id="fecha"></div>
+            </div>
+            <div class="footer__box">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023 <b>Cachureando</b></p>
+        </div>
+    </footer>
     <!--Fin bloque Footer-->
-
+    <script src="./js/fecha_hora.js"></script>
     <script src="https://kit.fontawesome.com/9d55460b02.js" crossorigin="anonymous"></script>
     <script src="/js/app.js"></script>
 </body>
